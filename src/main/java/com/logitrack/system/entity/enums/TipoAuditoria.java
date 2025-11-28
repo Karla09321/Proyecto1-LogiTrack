@@ -1,4 +1,7 @@
 package com.logitrack.system.entity.enums;
 
-public class TipoAuditoria {
+public enum TipoAuditoria {
+    INSERT,
+    UPDATE,
+    DELETE
 }
